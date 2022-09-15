@@ -1,0 +1,23 @@
+Case-Study
+Research Paper
+Documentation
+White Papers
+
+Usage 
+Architecture
+Protocols related 
+Organisation
+URL - Naming concept
+Communication concept
+All mangement of OS
+
+Report - 10-15
+Introduction
+Findings
+Synopsis
+Recommendation
+Conclution
+reference
+
+Refer other papers
+
