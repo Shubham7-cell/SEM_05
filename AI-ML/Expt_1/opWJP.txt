@@ -1,0 +1,43 @@
+Jug 1 has a capacity of 4 gallons
+Jug 2 has a capacity of 3 gallons
+
+Let J1 and J2 denote the amount of water filled in Jug 1 and J2 respectively
+
+
+----------Solution Path----------
+
+
+Initial state : J1= 0  J2= 0
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 0
+J2= 3
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 3
+J2= 0
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 3
+J2= 3
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 4
+J2= 2
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 0
+J2= 2
+
+
+Amount of water in Jug 1 and Jug 2 :
+J1= 2
+J2= 0
+
+
+Goal achieved : Jug 1 is filled with exactly 2 gallons of water

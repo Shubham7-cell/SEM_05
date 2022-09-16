@@ -1,0 +1,42 @@
+Enter the number Missionaries on the Left Bank: 
+3
+Enter the number of Cannibals on the Left Bank: 
+3
+
+------------------Solution------------------
+
+[3, 3, 0, 0]  | Current Position: Left Bank
+Boat Status: (C C)
+
+[3, 1, 0, 2]  | Current Position: Right Bank
+Boat Status: (C _)
+
+[3, 2, 0, 1]  | Current Position: Left Bank
+Boat Status: (C C)
+
+[3, 0, 0, 3]  | Current Position: Right Bank
+Boat Status: (C _)
+
+[3, 1, 0, 2]  | Current Position: Left Bank
+Boat Status: (M _)
+
+[2, 1, 1, 2]  | Current Position: Right Bank
+Boat Status: (C _)
+
+[2, 2, 1, 1]  | Current Position: Left Bank
+Boat Status: (M M)
+
+[0, 2, 3, 1]  | Current Position: Right Bank
+Boat Status: (C _)
+
+[0, 3, 3, 0]  | Current Position: Left Bank
+Boat Status: (C C)
+
+[0, 1, 3, 2]  | Current Position: Right Bank
+Boat Status: (C _)
+
+[0, 2, 3, 1]  | Current Position: Left Bank
+Boat Status: (C C)
+
+[0, 0, 3, 3]  | Current Position: Right Bank
+Solution found!

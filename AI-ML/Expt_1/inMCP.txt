@@ -1,0 +1,4 @@
+Enter the number Missionaries on the Left Bank: 
+3
+Enter the number of Cannibals on the Left Bank: 
+3
