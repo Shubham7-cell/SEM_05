@@ -5,7 +5,7 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
 // unicast remote object is a remote object that can only be accessed by one client at a time
-public class Server extends UnicastRemoteObject implements checkBal {
+public class Server extends UnicastRemoteObject implements BalanceInterface {
     public Server() throws RemoteException {
         super();
     }
@@ -20,12 +20,6 @@ public class Server extends UnicastRemoteObject implements checkBal {
             }
         }
 
-        // for (int i = 0; i < a.size(); i++) {
-        // double bal = a.get(i).checkBalance(acc_no, password);
-        // if (bal != -1)
-        // return bal;
-        // }
-        // return -1.0;
         return -1.0;
     }
 

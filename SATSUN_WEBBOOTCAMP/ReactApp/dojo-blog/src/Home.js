@@ -2,13 +2,19 @@ import { useState } from "react";
 
 const Home = () => {
     
-    const [name, setName] = useState('Shubham');
-    const [age, setAge] = useState(19);
+    // const [name, setName] = useState('Shubham');
+    // const [age, setAge] = useState(19);
 
-    const handleClick = () => {
-        setName('Pratik');
-        setAge(20);
-    }
+    const [blogs, setBlogs] = useState([
+        {title: 'My new website', body:'loreum ipsum...', author: 'mario', id: 1},
+        {title: 'Welcome party', body:'loreum ipsum...', author: 'supermario', id: 2},
+        {title: 'Pro tips', body:'loreum ipsum...', author: 'metamario', id: 3},
+]);
+
+    // const handleClick = () => {
+    //     setName('Pratik');
+    //     setAge(20);
+    // }
 
     // const handleClickAgain = (name, e) => {
     //     console.log('hello ' + name, e.target);
@@ -16,9 +22,12 @@ const Home = () => {
     
     return ( 
         <div className="home">
-            <h2>HOMEPAGE</h2>
-            <p>{ name } has born before { age } years</p>
-            <button onClick = { handleClick }>Click me!</button>
+           {blogs.map((blog) => (
+            <div className="blog-preview" key = {blog.id}>
+                <h2>{ blog.title }</h2>
+                <p>Written by { blog.writer }</p>
+            </div>
+           ))}
         </div>
      );
 }

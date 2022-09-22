@@ -10,7 +10,7 @@ public class Client {
         try {
             Scanner sc = new Scanner(System.in);
             Registry reg = LocateRegistry.getRegistry("localhost", 8000); // get the registry
-            checkBal ob = (checkBal) reg.lookup(serverName1); // lookup is used to find the object
+            BalanceInterface ob = (BalanceInterface) reg.lookup(serverName1); // lookup is used to find the object
 
             System.out.print("\nEnter account number:");
             String acc_no = sc.nextLine();
