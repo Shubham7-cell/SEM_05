@@ -214,11 +214,14 @@ public class MissionariesAndCannibals {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number Missionaries on the Left Bank: ");
-        int missionaries = sc.nextInt();
-        System.out.println("Enter the number of Cannibals on the Left Bank: ");
-        int cannibals = sc.nextInt();
-        System.out.println();
+        // System.out.println("Enter the number Missionaries on the Left Bank: ");
+        // int missionaries = sc.nextInt();
+        // System.out.println("Enter the number of Cannibals on the Left Bank: ");
+        // int cannibals = sc.nextInt();
+        // System.out.println();
+
+        int missionaries = 3;
+        int cannibals = 3;
         System.out.println("------------------Solution------------------\n");
         // Missionaries and Cannibals on left bank
         int[] arr = { missionaries, cannibals, 0, 0 };
