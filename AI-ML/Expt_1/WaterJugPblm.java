@@ -16,15 +16,15 @@ public class WaterJugPblm {
                 break;
 
             } else if (j1 == maxCap_j1) {
-                j1 = 0;
+                j1 = 0; // empty it
                 System.out.println("Amount of water in Jug 1 and Jug 2 :\nJ1= " + j1 + "\nJ2= " + j2 + "\n\n");
                 // Jug 1 is full (4 gallons)
                 continue;
 
             } else if (j1 == 0 && j2 == 0) // Both jugs are empty (first step)
             {
-                j1 = 0;
-                j2 = maxCap_j2; // So fill Jug 2 completely
+                j1 = maxCap_j1;
+                j2 = 0; // So fill Jug 2 completely
                 System.out.println("Amount of water in Jug 1 and Jug 2 :\nJ1= " + j1 + "\nJ2= " + j2 + "\n\n");
                 continue;
 
